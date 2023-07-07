@@ -1,0 +1,13 @@
+.btns {
+  display: flex;
+  flex-flow: column;
+  padding: 5px;
+}
+
+.btns button {
+  background-color: blueviolet;
+  border: none;
+  border-radius: 5%;
+  padding: 8px;
+  margin: 5px;
+}
