@@ -52,7 +52,7 @@ Component should display the customer's name.
 
 # MongoDB/Mongoose
 
-## Task 1
+## Task 1 - done
 
 Write a simple Mongoose customer schema.
 
@@ -67,7 +67,7 @@ Write a simple Mongoose customer schema.
 
 - Write a simple function that demonstrates how to find and update a customer model.
 
-### Task 2 Details
+### Task 2 Details - done
 
 - A starter function is in the `~/updateCurrentCustomer.js file`. Fix and finish the code.
 - This code should utilize the customer schema you wrote in Task 1.
@@ -76,6 +76,6 @@ Write a simple Mongoose customer schema.
 - Return the new document after update.
 - This code will not be executed, but should be valid.
 
-### Bonus Task
+### Bonus Task -done
 
 - Add dark/light mode switching functionality to the app you just created.

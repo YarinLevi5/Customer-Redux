@@ -1,9 +1,15 @@
-// const mongoose = require("mongoose");
-// const Schema = mongoose.Schema;
+const mongoose = require("mongoose");
+const Schema = mongoose.Schema;
 
-// const CustomerSchema = new Schema({
-// });
+const CustomerSchema = new Schema(
+  {
+    name: String,
+    age: Number,
+  },
+  {
+    timestamps: true,
+  }
+);
 
-// module.exports = mongoose.model);
-
-// Please comment out all your code when you are finished.
+const Customer = mongoose.model("Customer", CustomerSchema);
+module.exports.Customer = Customer;
